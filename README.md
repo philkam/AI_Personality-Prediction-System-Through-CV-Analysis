@@ -6,9 +6,26 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 [![fork this repo](https://githubbadges.com/fork.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=4c3)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/fork)
 
 ## Table of Contents
+* [Built With](#installation)
 * [Installation](#installation)
 * [Motivation](#motivation)
 * [How To Setup The System](#how-to-set-up-the-system)
+
+
+## Pre-requisites & Development Libraries
+
+
+To install WeEmploy you'll need pip and Git. It also uses a some Python packages (NumPy, SciPy and Matplotlib) but these should be taken care of by the installation process.
+
+| Software | Version |
+| ------ | ------ |
+| Python 3 | 3.9.6 |
+| Pandas | 0.25.1 |
+| Snscrape | 0.4.3 |
+| Flask | 2.1.2 |
+| Google Chrome | 102.0.5005.115 |
+
+
 
 ## Installation
 
