@@ -1,7 +1,13 @@
-# Personality Prediction System Through CV Analysis
+# WeEmploy
 
-## Problem Statment
-Job vacancies come with the need to manually go through numerous applications and CVs to find out what suits the particular requirements of the job being offered. Here we seek a more effective way to short-list submitted candidate CVs from a large number of applicants providing a consistent and fair CV ranking policy, which can be legally justifed. This system will help the HR department to easily short-list the candidate based on the CV ranking policy.
+WeEmploy is a web application that eradicates the traditional way of employment which comes with the need to manually go through numerous applications and CVs to find out what suits the particular requirement of the job being offered. WeEmploy seeks a more efficient way to short-list submitted candidate CVs from a large number of applicant providing a consistent and fair CV ranking policy, which can be legally justifed. This system will help the HR department to easily short-list the candidate based on the CV ranking policy.
+
+## Table of Contents
+* [Installation](## Installation)
+
+## Installation
+
+
 
 ## Motivation
 
@@ -19,7 +25,13 @@ Job vacancies come with the need to manually go through numerous applications an
 ## Background Information
 
 
-## Algorithms
+## Aptitude Test
 
 
-##
+## Personality Test
+
+
+## CV Analysis
+
+
+##Results
