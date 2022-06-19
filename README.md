@@ -4,6 +4,8 @@ WeEmploy is a web application that eradicates the traditional way of employment 
 
 ## Table of Contents
 * [Installation](#installation)
+* [Motivation](#motivation)
+* [How To Setup The System](#how-to-set-up-the-system)
 
 ## Installation
 
