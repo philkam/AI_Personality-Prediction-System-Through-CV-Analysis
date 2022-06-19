@@ -6,16 +6,16 @@ Job vacancies come with the need to manually go through numerous applications an
 *Setup a virtual environment for the system if you are running the system locally.
 
 
-#Components of the Sytem
-*User login and registration
-*User Aptitude Test
-*HR personnel feature(The HR can add a personnel to the team)
+# Components of the Sytem
+* User login and registration
+* User Aptitude Test
+* HR personnel feature(The HR can add a personnel to the team)
 
 
-#Background Information
+# Background Information
 
 
-#Algorithms
+# Algorithms
 
 
 #
