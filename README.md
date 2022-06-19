@@ -81,4 +81,4 @@ python app.py
 
 ## Disclaimer
 
-WeEmploy is still an experimental prototype howwever instances fit for specific use cases can be spawned and developed for your use. In order to contact us for such an endeavor please check out the contributors for this project.
+WeEmploy is still an experimental prototype however instances fit for specific use cases can be spawned and developed for your use. In order to contact us for such an endeavor please check out the contributors for this project.
