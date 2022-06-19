@@ -6,8 +6,9 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 [![fork this repo](https://githubbadges.com/fork.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=4c3)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/fork)
 
 ## Table of Contents
-* [Pre-requisites & Development Libraries](#pre-requisites-&-development-libraries)
+* [Pre-requisites & Development Libraries](#pre--requisites-&-development-libraries)
 * [Installation](#installation)
+* [Instructions](#instructions)
 * [Motivation](#motivation)
 * [How To Setup The System](#how-to-set-up-the-system)
 
@@ -29,16 +30,35 @@ To install WeEmploy you'll need pip and Git. It also uses a some Python packages
 
 ## Installation
 
+You can install WeEmploy by cloning the repository:
 
+```sh
+git clone 
+```
 
-## Motivation
+## Instructions
 
+* Clone the [repository](#installation)
 
-## How To Setup The System
-* Set up a virtual environment. See [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments) for more details.
+* Set up a virtual environment. See [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments) for more details. Don't forget to activate the virtual environment.
 
+* Install all required libraries through requirements.txt
 
-## Components of the Sytem
+```sh
+pip install requirements.txt
+```
+
+* Run your local server ( WAMP, XAMPP etc)
+
+* Now run the Flask app app.py.
+
+```sh
+python app.py
+```
+
+* In your browser open http://localhost:5000 (or :{port-number} as specified by the Flask's development server)
+
+## Components of the Application
 * User login and registration
 * User Aptitude Test
 * HR personnel feature(The HR can add a personnel to the team)
@@ -61,4 +81,4 @@ To install WeEmploy you'll need pip and Git. It also uses a some Python packages
 
 ## Disclaimer
 
-Aforementioned WeEmploy is still an experimental prototype. However instances fit for specific use cases can be spawned and developed for your use. In order to contact us for such an endeavor please check out the contributors for this project.
+WeEmploy is still an experimental prototype howwever instances fit for specific use cases can be spawned and developed for your use. In order to contact us for such an endeavor please check out the contributors for this project.
