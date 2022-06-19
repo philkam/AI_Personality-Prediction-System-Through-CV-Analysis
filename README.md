@@ -7,7 +7,7 @@ Job vacancies come with the need to manually go through numerous applications an
 
 
 ## How To Setup The System
-* Setup a virtual environment. See [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments)
+* Set up a virtual environment. See [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments) for more details.
 
 
 ## Components of the Sytem
