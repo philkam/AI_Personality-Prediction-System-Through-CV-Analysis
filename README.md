@@ -9,6 +9,12 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 * [Pre-requisites & Development Libraries](#pre-requisites-&-development-libraries)
 * [Installation](#installation)
 * [Instructions](#instructions)
+* [Background](#background)
+* [Component of the Application](#component-of-the-application)
+* [Aptitude Assessment](#aptitude-assesment)
+* [Personality Test](#personality-test)
+* [CV Analysis](#cv-analysis)
+* [Disclaimer](#disclaimer)
 
 
 
