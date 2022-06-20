@@ -138,6 +138,15 @@ This training contains following topics:
 * Model Evaluation
 
 
+### Dataset Description
+The publicly available Myers–Briggs personality type dataset from Kaggle, containing 8675 rows
+of data, was used in this research. In this dataset, each row consists of two columns. The first column
+is for the MBTI personality type of a given person, and the second column includes fifty posts obtained
+from the individual’s social media. Each post has been separated by three pipe characters . This data
+has been collected from the users of an online forum, where in the first step, users take a questionnaire
+that recognises their MBTI type; and in the second step, communicate with other users.
+
+
 
 ## CV Analysis
 
