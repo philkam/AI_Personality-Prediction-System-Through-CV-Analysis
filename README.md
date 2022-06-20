@@ -6,11 +6,10 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 [![fork this repo](https://githubbadges.com/fork.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=4c3)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/fork)
 
 ## Table of Contents
-* [Pre-requisites & Development Libraries](#pre--requisites-&-development-libraries)
+* [Pre-requisites & Development Libraries](#pre-requisites-&-development-libraries)
 * [Installation](#installation)
 * [Instructions](#instructions)
-* [Motivation](#motivation)
-* [How To Setup The System](#how-to-set-up-the-system)
+
 
 
 ## Pre-requisites & Development Libraries
@@ -99,6 +98,14 @@ This section of the application allows the registered candidates to attend the a
 * Only the Human Resource Manager can add a personnel to the Staffing team.
 * The Human Resource personnels determines the questions a candidate should take.
 * The Human Resource personnels sets the weight each question should carry
+
+#### The Database
+* Student profile
+* Answers given by students
+* Instructor details
+* Question details
+* Answer details which comprises of possible answers and the right answer 
+
 
 
 
