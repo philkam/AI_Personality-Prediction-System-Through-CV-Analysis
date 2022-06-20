@@ -172,6 +172,13 @@ the distribution of Feeling (F)  is slightly more than Thinking (T). Finally, fo
 is Judging (J)/ Perceiving (P), the distribution of Perceiving (P)  is greater than Judging (J).
 
 
+### WordCloud of Frequently Used Words
+Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites. Word cloud was used to analyze the most frequently used words for each of the personalities.
+
+\\Insert Image here
+
+
+
 
 ## CV Analysis
 
