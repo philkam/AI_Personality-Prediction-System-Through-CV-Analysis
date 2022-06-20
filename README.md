@@ -221,6 +221,15 @@ For prediction of fourth category which is Judging (J)/ Perceiving (P), the SVM 
 \\Insert Image here
 
 
+
+## Usage of Models in Web Application
+
+From training of the dataset, we were able to come to a conclusion on the best model to use in each dimension. By using pickle, the models are imported and used. The snscrape which is a scraper for social networking service is imported to scrape a user's tweets from their twitter account after the user has entered their username in the application. The Human Resource team requires all users to have a twitter account. Users are required to be engaging in tweets and post three hours before they take the personality test. 
+The models are loaded, the users tweets are pre-processed and predictions are made thereafter.
+
+
+
+
 ## CV Analysis
 
 
