@@ -126,8 +126,17 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 
 
 
-
 ## Personality Test
+Social media establishes uninterrupted connectivity, between its users and external world through revealing personal details and their viewpoints in every aspect of life. The focal aim of this here is to analyze how twitter (dataset) can be used to predict personality.
+We show processes of developing  Machine Learning models on textual data. With this candidates can see their predicted personality types  according to Myers-Briggs Personality Types Indicator using their twitter user names since twitter is the classic entry point for practicing machine learning. With Twitter data, you got an interesting blend of data (tweet contents) and meta-data (location,hashtags, users, re-tweets, etc.) that opened up paths for analysis.
+This training contains following topics:
+* Exploratory Data Analysis
+* Handling Imbalanced Dataset
+* Vectorization of Text Data
+* Model Creation
+* Model Training
+* Model Evaluation
+
 
 
 ## CV Analysis
