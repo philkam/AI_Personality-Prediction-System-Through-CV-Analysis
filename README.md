@@ -148,7 +148,8 @@ that recognises their MBTI type; and in the second step, communicate with other 
 
 ### Proportionality in the Dataset
 In this step, matplotlib which is a Python 2D plotting library were used for data preview and to determine the distribution of the MBTI personality types in the dataset. 
-            \\\Insert image here
+![Proportionality](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/classd.png)
+
 The image above show a non-uniform representation of MBTI types in the dataset that is not
 commensurate with the actual proportions of MBTI types. As a result, it was clear that some cleaning in the dataset would be necessary in order to improve the
 accuracy of the proportional representation of each MBTI type. 
@@ -160,7 +161,8 @@ Four different categories were created for the type indicators in order to under
 The first category was for Introversion (I)/Extroversion (E), the second
 category was for Intuition (N)/Sensing (S), the third was for Thinking (T)/Feeling (F)and the fourthcategory was for Judging (J)/Perceiving (P). As a result, for each category, one letter will return and at the end there will be four letters that represent one of the 16 personality types in the MBTI. For instance, if the first category is returning I, the second category is returning N, the third category is returning T and the fourth category is returning J, the relevant personality type would be INTJ.
 
-\\Insert Image here
+![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/class_distribution.png)
+
 
 
 
@@ -175,7 +177,7 @@ is Judging (J)/ Perceiving (P), the distribution of Perceiving (P)  is greater t
 ### WordCloud of Frequently Used Words
 Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites. Word cloud was used to analyze the most frequently used words for each of the personalities.
 
-\\Insert Image here
+![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/wordcloud.png)
 
 
 ### Pre-Processing the Dataset
