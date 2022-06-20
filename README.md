@@ -59,9 +59,11 @@ python app.py
 * In your browser open http://localhost:5000 (or :{port-number} as specified by the Flask's development server)
 
 ## Components of the Application
-* User login and registration
-* User Aptitude Test
-* HR personnel feature(The HR can add a personnel to the team)
+* Login and Registration
+* Aptitude Assessment
+* Personality test
+* CV analysis
+
 
 
 ## Background Information
