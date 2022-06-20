@@ -6,7 +6,7 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 [![fork this repo](https://githubbadges.com/fork.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=4c3)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/fork)
 
 ## Table of Contents
-* [Prerequisites & Development Libraries](#prerequisites-&-development-libraries)
+* [Prerequisites & Development Libraries](#prerequisites-development-libraries)
 * [Installation](#installation)
 * [Instructions](#instructions)
 * [Background](#background)
@@ -231,6 +231,10 @@ The models are loaded, the users tweets are pre-processed and predictions are ma
 
 
 ## CV Analysis
+Though curriculum vitae analysis is necessary to ensure recruiters do not miss good candidates or put forward incorrect candidates; but it is also important to process all applications quickly to ensure a fast response for clients and move to the interview and placement stage. In our project, our goal was to parse the entire CV and search for keywords from the CV.
+
+For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
+
 
 
 ## Results
