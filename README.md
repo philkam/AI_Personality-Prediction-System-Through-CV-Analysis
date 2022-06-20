@@ -221,7 +221,6 @@ For prediction of fourth category which is Judging (J)/ Perceiving (P), the SVM 
 \\Insert Image here
 
 
-
 ## CV Analysis
 
 
