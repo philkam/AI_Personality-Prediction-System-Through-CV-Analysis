@@ -95,7 +95,7 @@ Understanding a candidates inherent aptitude is very crucial for an organisation
 This section of the application allows the registered candidates to attend the aptitude assessment. The candidate registers through a portal, fills in the compulsory profile information and logs on to the application. The student views the assessment report.  The application allows the human resource personnels to prepare the set of questions. Assigning of questions to the candidates is done automatically, though the question paper is prepared by a human resource personnel. It also allows the personnels to manage students and also to edit their own profile. The personnel is registered by the Human Resource Manager.
 
 #### Question Structure
-All the questions are MCQ. four types of questions are supported by this application.
+All the questions are MCQ. Four types of questions are supported by this application.
 
 * Normal MCQ questions
 * Question with image and option
