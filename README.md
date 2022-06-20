@@ -237,16 +237,14 @@ Though curriculum vitae analysis is necessary to ensure recruiters do not miss g
 
 For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
 
-\subsection*{Features}
+### Features
 
 * A registered candidate can upload the CV.
 * The candidate can visualise the score based on resume uploaded
 * Candidates gets resume writing tip suggestions if necessary.
 
 
-We liken the score of the CV to that of an ATS score. The ATS does not know how to handle  tables or images. It is best to use a chronological or hybrid curriculum vitae format. Since the CV will be scanned, headers and footers are not necessary. 
-
-
+We liken the score of the CV to that of an ATS score. The ATS does not know how to handle  tables or images. It is best to use a chronological or hybrid curriculum vitae format. Since the CV will be scanned, headers and footers are not necessary. An improperly formatted CV cannot be scanned hence the candidate could be disqualified.
 
 
 
