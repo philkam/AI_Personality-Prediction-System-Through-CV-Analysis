@@ -188,7 +188,7 @@ result, NLTK was used to remove the MBTI types from the dataset. After this step
 of MBTI personality types in the dataset was determined again. In addition, all urls and stop words were removed from the dataset. Finally, in order to
 make the dataset more meaningful, the text was lemmatised, i.e., inflected forms of the words were transformed into their root words. Imbalanced data was also handled where the random over sampler function was used. This ensured that the categoraization of type indicatores in four dimenstions were balanced.
 
-\\Insett Image here
+![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/balancedg.png)
 
 
 ### Vectorise with Count and Term Frequency–Inverse Document Frequency (TF–IDF)
@@ -220,8 +220,8 @@ In making prediction for the second category which is Intuition (N) / Sensing (S
 In selection of a model for the third category which is Judging (J)/ Perceiving (P), the XGBoost is the most preferred model to use due to its performance against the other classification models.
 For prediction of fourth category which is Judging (J)/ Perceiving (P), the SVM is the most preferred model to use due to its performance against the other classification models.
 
-\\Insert Image here
 
+![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/res.png)
 
 
 ## Usage of Models in Web Application
@@ -237,16 +237,14 @@ Though curriculum vitae analysis is necessary to ensure recruiters do not miss g
 
 For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
 
-\subsection*{Features}
+### Features
 
 * A registered candidate can upload the CV.
 * The candidate can visualise the score based on resume uploaded
 * Candidates gets resume writing tip suggestions if necessary.
 
 
-We liken the score of the CV to that of an ATS score. The ATS does not know how to handle  tables or images. It is best to use a chronological or hybrid curriculum vitae format. Since the CV will be scanned, headers and footers are not necessary. 
-
-
+We liken the score of the CV to that of an ATS score. The ATS does not know how to handle  tables or images. It is best to use a chronological or hybrid curriculum vitae format. Since the CV will be scanned, headers and footers are not necessary. An improperly formatted CV cannot be scanned hence the candidate could be disqualified.
 
 
 
