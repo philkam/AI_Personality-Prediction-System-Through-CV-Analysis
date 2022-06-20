@@ -195,6 +195,24 @@ step, posts were placed into a matrix of token counts. In the next step, the mod
 dictionary and returns a term-document matrix. The count matrix then transforms into a normalised
 TF–IDF representation.
 
+### Model Creation, Model Training and Model Saving
+
+Models were created and predictions were made using the classification methods below: 
+
+* Random Forest: Random Forest is a classification method that combines many decision trees based on individual sets of examples from the dataset. Each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. In the Random Forest algorithm, the results of decision trees are combined to select the most popular class.
+\hfill \break
+
+
+* Naive Bayes:  It is a classification technique based on Bayes' Theorem with an assumption of independence among predictors. Simply, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+
+Support Vector Machine: A support vector machine (SVM) is a supervised machine learning model that uses classification algorithms for two-group classification problems. SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a probabilistic classification setting). SVM maps training examples to points in space so as to maximise the width of the gap between the two categories. 
+
+* Decision Tree : It is a classification method where the paths from root to leaf represent classification rules. A decision tree is a flowchart-like structure in which each internal node represents a test on a feature, each leaf node represents a class label (decision taken after computing all features) and branches represent conjunctions of features that lead to those class labels. . 
+
+
+* XGBoost : XGBoost (eXtreme Gradient Boosting) is a popular supervised-learning algorithm used for classification on large datasets. It uses sequentially-built shallow decision trees to provide accurate results and a highly-scalable training method that avoids overfitting.
+\end{itemize}
+
 
 
 ## CV Analysis
