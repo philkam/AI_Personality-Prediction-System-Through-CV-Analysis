@@ -189,6 +189,13 @@ make the dataset more meaningful, the text was lemmatised, i.e., inflected forms
 \\Insett Image here
 
 
+### Vectorise with Count and Term Frequency–Inverse Document Frequency (TF–IDF)
+Sklearn library was used to recognize the words appearing  in the posts. It builds a vocabulary that only considers 100000 features ordered by term frequency in the dataset. In the first
+step, posts were placed into a matrix of token counts. In the next step, the model learns the vocabulary
+dictionary and returns a term-document matrix. The count matrix then transforms into a normalised
+TF–IDF representation.
+
+
 
 ## CV Analysis
 
