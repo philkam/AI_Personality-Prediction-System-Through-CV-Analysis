@@ -178,6 +178,16 @@ Word Cloud is a data visualization technique used for representing text data in 
 \\Insert Image here
 
 
+### Pre-Processing the Dataset
+As discussed earlier, data in this dataset was collected from an Internet forum and after analysing the content of the dataset, it was clear that some word removal is necessary. Non-uniform representation of MBTI types in the dataset that is not commensurate with the actual proportions of MBTI types in the general population was the most important reason for this. It was determined that this is because the
+data was collected from an Internet forum created for discussion about personality type and MBTI
+types were repeated too many times in the posts. This may also affect the accuracy of the model. As a
+result, NLTK was used to remove the MBTI types from the dataset. After this step, the distribution
+of MBTI personality types in the dataset was determined again. In addition, all urls and stop words were removed from the dataset. Finally, in order to
+make the dataset more meaningful, the text was lemmatised, i.e., inflected forms of the words were transformed into their root words. Imbalanced data was also handled where the random over sampler function was used. This ensured that the categoraization of type indicatores in four dimenstions were balanced.
+
+\\Insett Image here
+
 
 
 ## CV Analysis
