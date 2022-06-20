@@ -95,6 +95,12 @@ This section of the application allows the registered candidates to attend the a
 * Answers questions
 * Vews report 
 
+#### Human Resource Team
+* Only the Human Resource Manager can add a personnel to the Staffing team.
+* The Human Resource personnels determines the questions a candidate should take.
+* The Human Resource personnels sets the weight each question should carry
+
+
 
 ## Personality Test
 
