@@ -58,15 +58,28 @@ python app.py
 
 * In your browser open http://localhost:5000 (or :{port-number} as specified by the Flask's development server)
 
+
+## Background 
+
+There are various tests that help to determine personality types such as the Big Five, Rorschach test, and MBTI test. In this project, prediction of personality is done by considering the MBTI test.
+
+The MBTI personality classification system grew out of Jungian psychoanalytic psychology as a systematization of archetypal personality types used in clinical practice. The system is divided along four binary orthogonal personality dimensions, altogether comprising a total of 16 distinct person.
+
+### The dimensions are as follows
+
+* Extraversion (E) vs Introversion (I): a measure of how much an individual prefers their outer or inner world.
+
+* Sensing (S) vs Intuition (N): a measure of how much an individual processes information through the five senses versus impressions through patterns.
+
+* Thinking (T) vs Feeling (F): a measure of preference for objective principles and facts versus weighing the emotional perspectives of others.
+
+* Judging (J) vs Perceiving (P): a measure of how much an individual prefers a planned and ordered life versus a flexible and spontaneous life
+
 ## Components of the Application
 * Login and Registration
 * Aptitude Assessment
 * Personality test
 * CV analysis
-
-
-
-## Background Information
 
 
 ## Aptitude Test
