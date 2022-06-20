@@ -148,7 +148,7 @@ that recognises their MBTI type; and in the second step, communicate with other 
 
 ### Proportionality in the Dataset
 In this step, matplotlib which is a Python 2D plotting library were used for data preview and to determine the distribution of the MBTI personality types in the dataset. 
-![Class distribution](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/class_distribution.png)
+![Class distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/class_distribution.png)
 
             https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/class_distribution.png
 The image above show a non-uniform representation of MBTI types in the dataset that is not
