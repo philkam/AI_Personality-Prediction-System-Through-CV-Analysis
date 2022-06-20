@@ -153,6 +153,24 @@ The image above show a non-uniform representation of MBTI types in the dataset t
 commensurate with the actual proportions of MBTI types. As a result, it was clear that some cleaning in the dataset would be necessary in order to improve the
 accuracy of the proportional representation of each MBTI type. 
 
+### Categorization of Type Indicators in Four Dimensions
+
+Four different categories were created for the type indicators in order to understand the distribution of types indicators in the dataset. 
+
+The first category was for Introversion (I)/Extroversion (E), the second
+category was for Intuition (N)/Sensing (S), the third was for Thinking (T)/Feeling (F)and the fourthcategory was for Judging (J)/Perceiving (P). As a result, for each category, one letter will return and at the end there will be four letters that represent one of the 16 personality types in the MBTI. For instance, if the first category is returning I, the second category is returning N, the third category is returning T and the fourth category is returning J, the relevant personality type would be INTJ.
+
+\\Insert Image here
+
+
+
+For the first category of Introversion (I)/Extroversion (E),
+the distribution of Introversion (I)  is much greater than Extroversion (E). Similarly, for the second
+category which is Intuition (N)/Sensing (S), the distribution of Intuition
+(N)  is much higher than Sensing (S). for the third category which is Thinking (T)/Feeling (F),
+the distribution of Feeling (F)  is slightly more than Thinking (T). Finally, for the fourth category which
+is Judging (J)/ Perceiving (P), the distribution of Perceiving (P)  is greater than Judging (J).
+
 
 
 ## CV Analysis
