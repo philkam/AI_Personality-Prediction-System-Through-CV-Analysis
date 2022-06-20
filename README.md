@@ -2,8 +2,8 @@
 
 The project aims to develop a prototype of a platform that eradicates the traditional way of employment which comes with the need to manually go through numerous applications and CVs to find out what suits the particular requirement of the job being offered. WeEmploy seeks a more efficient way to short-list submitted candidate CVs from a large number of applicant providing a consistent and fair CV ranking policy, which can be legally justifed. This system will help the HR department to easily short-list the candidate based on the CV ranking policy.
 
-[![star this repo](https://githubbadges.com/star.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=4c3)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis)
-[![fork this repo](https://githubbadges.com/fork.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=4c3)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/fork)
+[![star this repo](https://githubbadges.com/star.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=710193)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis)
+[![fork this repo](https://githubbadges.com/fork.svg?user=philkam&repo=AI_Personality-Prediction-System-Through-CV-Analysis&style=default&color=fff&background=710193)](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/fork)
 
 ## Table of Contents
 * [Prerequisites & Development Libraries](#prerequisites-development-libraries)
@@ -95,7 +95,7 @@ Understanding a candidates inherent aptitude is very crucial for an organisation
 This section of the application allows the registered candidates to attend the aptitude assessment. The candidate registers through a portal, fills in the compulsory profile information and logs on to the application. The student views the assessment report.  The application allows the human resource personnels to prepare the set of questions. Assigning of questions to the candidates is done automatically, though the question paper is prepared by a human resource personnel. It also allows the personnels to manage students and also to edit their own profile. The personnel is registered by the Human Resource Manager.
 
 #### Question Structure
-All the questions are MCQ. four types of questions are supported by this application.
+All the questions are MCQ. Four types of questions are supported by this application.
 
 * Normal MCQ questions
 * Question with image and option
