@@ -82,7 +82,9 @@ The MBTI personality classification system grew out of Jungian psychoanalytic ps
 * CV analysis
 
 
-## Aptitude Test
+## Aptitude Assessment
+The aptitude assessment helps understand the underlying patterns of candidates interest and predict the stream that the candidate is interested in.
+Understanding a candidates inherent aptitude is very crucial for an organisation. Candidates can test their aptitude after which a report is generated which can assess a candidate's interest. Based on this, the Human Resource Manager can place a candidate in the right team and point out the right candidate for a particular job.
 
 
 ## Personality Test
