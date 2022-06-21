@@ -68,7 +68,7 @@ python app.py
 
 There are various tests that help to determine personality types such as the Big Five, Rorschach test, and MBTI test. In this project, prediction of personality is done by considering the MBTI test.
 
-The MBTI personality classification system grew out of Jungian psychoanalytic psychology as a systematization of archetypal personality types used in clinical practice. The system is divided along four binary orthogonal personality dimensions, altogether comprising a total of 16 distinct person.
+The MBTI personality classification system grew out of Jungian psychoanalytic psychology as a systematization of archetypal personality types used in clinical practice. The system is divided along four binary orthogonal personality dimensions, altogether comprising a total of 16 distinct persons.
 
 ### The dimensions are as follows
 
@@ -100,7 +100,6 @@ All the questions are MCQ. Four types of questions are supported by this applica
 * Normal MCQ questions
 * Question with image and option
 * Question and option with images.
-* Question and option with images.
 
 
 Questions can be from four main sections namely Science, Commerce, Humanities, and Aptitude. To prepare the question paper the human resource personnel chooses about fifteen questions from each section. Each  question paper contains sixty questions. The questions are given a weightage according to  the category that particular question falls. The weightage is made useful for the evaluation of candidate assessment.It is mandatory for the students to attempt all the sixty question.
@@ -110,7 +109,7 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 * Registration
 * Login
 * Answers questions
-* Vews report 
+* Views report 
 
 #### Human Resource Team
 * Only the Human Resource Manager can add a personnel to the Staffing team.
@@ -233,7 +232,7 @@ The models are loaded, the users tweets are pre-processed and predictions are ma
 
 
 ## CV Analysis
-Though curriculum vitae analysis is necessary to ensure recruiters do not miss good candidates or put forward incorrect candidates; but it is also important to process all applications quickly to ensure a fast response for clients and move to the interview and placement stage. In our project, our goal was to parse the entire CV and search for keywords from the CV.
+Though curriculum vitae analysis is necessary to ensure recruiters do not miss good candidates or put forward incorrect candidates; but it is also important to process all applications quickly to ensure a fast response for clients and move to the interview and placement stages. In our project, our goal was to parse the entire CV and search for keywords from the CV.
 
 For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
 
