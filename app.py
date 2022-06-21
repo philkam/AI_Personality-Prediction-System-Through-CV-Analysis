@@ -207,7 +207,7 @@ def adddesc():
         if res == 0:
             return render_template("/studentdescription.html")
         else:
-            flash("You have already aswered to these questions")
+            flash("You have already answered to these questions")
             return render_template("/studentdescription.html")
 
 
