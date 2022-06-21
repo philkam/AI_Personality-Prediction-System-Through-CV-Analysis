@@ -108,19 +108,23 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 #### Candidate View Process Flow
 * Registration
 
-\\insert image here
+![Register](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/register.jpg)
+
 
 * Login
 
-\\insert image here
+![Login](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/login.jpg)
+
 
 * Answers questions
 
-\\insert image here
+![Qpage](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/qpage.jpg)
+
 
 * Views report 
 
-\\insert image here
+![Report](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/report.jpg)
+
 
 
 #### Human Resource Team
@@ -159,6 +163,7 @@ that recognises their MBTI type; and in the second step, communicate with other 
 
 ### Proportionality in the Dataset
 In this step, matplotlib which is a Python 2D plotting library were used for data preview and to determine the distribution of the MBTI personality types in the dataset. 
+
 ![Proportionality](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/classd.png)
 
 The image above show a non-uniform representation of MBTI types in the dataset that is not
@@ -240,7 +245,16 @@ For prediction of fourth category which is Judging (J)/ Perceiving (P), the SVM 
 From training of the dataset, we were able to come to a conclusion on the best model to use in each dimension. By using pickle, the models are imported and used. The snscrape which is a scraper for social networking service is imported to scrape a user's tweets from their twitter account after the user has entered their username in the application. The Human Resource team requires all users to have a twitter account. Users are required to be engaging in tweets and post three hours before they take the personality test. 
 The models are loaded, the users tweets are pre-processed and predictions are made thereafter.
 
-\\insert image here
+## Personality prediction interface
+Type the twitter handle without the @ symbol.
+![Prediction](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prediction.jpg)
+
+## Predicted result
+Predicted personality of the user and some tweets.
+
+![Prederes](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prederes.jpg)
+
+
 
 
 ## CV Analysis
@@ -248,7 +262,7 @@ Though curriculum vitae analysis is necessary to ensure recruiters do not miss g
 
 For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
 
-\\Insert image here
+![CV Page](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/cvpage.jpg)
 
 ### Features
 
