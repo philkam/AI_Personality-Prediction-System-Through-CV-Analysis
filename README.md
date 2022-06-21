@@ -9,6 +9,7 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 * [Prerequisites & Development Libraries](#prerequisites-development-libraries)
 * [Installation](#installation)
 * [Instructions](#instructions)
+* [Hosted Webapp](#hosted-webapp)
 * [Background](#background)
 * [Components of the Application](#components-of-the-application)
 * [Aptitude Assessment](#aptitude-assessment)
@@ -63,7 +64,8 @@ python app.py
 
 * In your browser open http://localhost:5000 (or :{port-number} as specified by the Flask's development server)
 
-## Hosted Webapp: http://phoebemensah.pythonanywhere.com/
+## Hosted Webapp
+URL: http://phoebemensah.pythonanywhere.com/
 
 ## Background 
 
