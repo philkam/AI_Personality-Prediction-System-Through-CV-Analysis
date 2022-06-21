@@ -247,11 +247,12 @@ The models are loaded, the users tweets are pre-processed and predictions are ma
 
 ## Personality prediction interface
 Type the twitter handle without the @ symbol.
-![Prederes](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prederes.jpg)
+![Prediction](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prediction.jpg)
 
 ## Predicted result
 Predicted personality of the user and some tweets.
-![Prediction](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prediction.jpg)
+
+![Prederes](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prederes.jpg)
 
 
 
