@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <!-- Title  -->
+    <title>WeEmploy</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,600,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/plugins.css') }}">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+</head>
+<body>
+<!-- Start Page Preloader -->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="object" id="object_four"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_one"></div>
+        </div>
+    </div>
+</div>
+<!-- End Page Preloader -->
+<!-- Start Navigation -->
+<nav class="navbar navbar-expand-lg" style="background-color: deepskyblue;">
+    <div class="container">
+        <!-- Start Logo -->
+        <a class="logo" href="home-1.html" style="width:unset;">
+           <h4>WeEmploy</h4>
+        </a>
+        <!-- End Logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"><i class="fas fa-bars"></i></span>
+        </button>
+        <!-- Start Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <span class="nav-link active"><a href="/home.html"> Home</a></span>
+                </li>
+                <li class="nav-item dropdown">
+                    <span class="nav-link"><a href="/aboutus.html"> About us</a></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactus.html">Contact us</a>
+                </li>
+            </ul>
+            
+        </div>
+        <!-- End Menu -->
+    </div>
+</nav>
+<!-- End Navigation -->
+<!-- Start Header -->
+<header class="header slider-fade">
+    <div class="owl-carousel owl-theme">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="{{ url_for('static', filename='assets/img/imagea.jpg') }}">
+            <div class="v-middle caption mt-30">
+                <div class="o-hidden">
+                    <h4></h4>
+                    <h1>WeEmploy</h1>
+                    <p></p>
+                    <a href="/login.html" class="butn butn-light mt-30">
+                        <span>Login</span>
+                    </a>
+                    <a href="/signup.html" class="butn butn-bg mt-30">
+                        <span>Sign Up</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="{{ url_for('static', filename='assets/img/imageb.jpg') }}">
+            <div class="v-middle caption mt-30">
+                <div class="o-hidden">
+                    <h4></h4>
+                    <h1>Welcome to.......</h1>
+                    <p> Aptitiude assessment portal</p>
+                    <a href="/login.html" class="butn butn-light mt-30">
+                        <span>Login</span>
+                    </a>
+                    <a href="/signup.html" class="butn butn-bg mt-30">
+                        <span>Sign Up</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="{{ url_for('static', filename='assets/img/imagec.jpg') }}">
+            <div class="v-middle caption mt-30">
+                <div class="o-hidden">
+                    <h4>We Are WE</h4>
+                    <h1>Employ</h1>
+                   
+                    <a href="/login.html" class="butn butn-light mt-30">
+                        <span>Login</span>
+                    </a>
+                    <a href="/signup.html" class="butn butn-bg mt-30">
+                        <span>Sign Up</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header -->
+<!-- Start Hero -->
+<section class="hero section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="intro offset-lg-1 col-lg-10 text-center mb-80">
+                <h3>About WeEmploy</h3>
+                <p style="    text-align: justify;">The project aims to develop a prototype of a platform that eradicates the traditional way of employment which comes with the need to manually go through numerous applications and CVs to find out what suits the particular requirement of the job being offered. WeEmploy seeks a more efficient way to short-list submitted candidate CVs from a large number of applicant providing a consistent and fair CV ranking policy, which can be legally justifed. This system will help the HR department to easily short-list the candidate based on the CV ranking policy.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Start Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6">
+                <div class="info mb-md50" style="text-align: -webkit-center;">
+                    <!-- Start Logo -->
+                    <a class="logo pb-3" href="home-1.html" style="width: unset;">
+                        <h4>Get the best out of you, with WeEmploy</h4>
+                    </a>
+                    <!-- End Logo -->
+                    <p>The best career guidance and educational resources with highly trained teaching and non-teaching staffs. The amendments made to the curriculum on a regular basis will increase the adaptability and confidence of students.</p>
+                    <div class="social">
+                        <span>Social: </span>
+                        <a href="#" class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer text-center">
+        <p>&copy; 2019 <b>WeEmploy</b>. All Rights Reserved.</p>
+    </div>
+</footer>
+<!-- End Footer -->
+<!-- JQuery JS -->
+<script src="{{ url_for('static', filename='assets/js/jquery-3.0.0.min.js') }}"></script>
+<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+<!-- Scroll JS -->
+<script src="{{ url_for('static', filename='assets/js/scrollIt.min.js') }}"></script>
+<!-- Owl Carousel JS -->
+<script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
+<!-- Scripts JS -->
+<script src="{{ url_for('static', filename='assets/js/scripts.js') }}"></script>
+</body>
+
+</html>

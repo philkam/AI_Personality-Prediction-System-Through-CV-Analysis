@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WeEmploy</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/adminlte.min.css') }}">
+
+
+    <!-- Google Font -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="index2.html" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini">
+          <b>UL</b>E</span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg">
+          <b>We</b>Employ</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="{{ url_for('static', filename='img/avatar.png') }}" class="user-image"
+                                 alt="User Image">
+                            <span class="hidden-xs">User</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="{{ url_for('static', filename='img/avatar.png') }}" class="img-circle"
+                                     alt="User Image">
+
+                                <p>
+                                    [User]
+                                    <small>Personnel</small>
+                                </p>
+                            </li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="/instructorprofileview" class="btn btn-default btn-flat">Profile</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="/logout" class="btn btn-default btn-flat">Sign out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- Sidebar user panel -->
+            <div class="user-panel">
+                <div class="pull-left image">
+                    <img src="{{ url_for('static', filename='img/avatar.png') }}" class="img-circle" alt="User Image">
+                </div>
+                <div class="pull-left info">
+                    <p>User</p>
+                    <a href="#">
+                        <i class="fa fa-circle text-success"></i> Personnel</a>
+                </div>
+            </div>
+
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="header">MAIN NAVIGATION</li>
+                <li>
+                    <a href="/instructorhome.html">
+                        <i class="fa fa-home"></i> <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/instructorprofileview">
+                        <i class="fa fa-users"></i> <span>Profile</span>
+                    </a>
+                </li>
+                <li class="treeview active">
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-building"></i>
+                        <span>Manage Questions</span>
+                        <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li id="menu-view-all-device"><a href="/questionselect"><i class="fa fa-circle-o"></i> Add
+                            Questions</a>
+                        </li>
+                        <li id="menu-view-all-device"><a href="/questionviewselect"><i class="fa fa-circle-o"></i> View
+                            Question</a></li>
+                        <li id="menu-view-all-device"><a href="/questionpaper"><i class="fa fa-circle-o"></i> Set
+                            Question Paper</a>
+                        </li>
+                        <li id="menu-view-all-device"><a href="/selectquestionpaper"><i class="fa fa-circle-o"></i> Set
+                            Question Paper weightage</a>
+                        </li>
+                    </ul>
+                </li>
+               
+                <li>
+                    <a href="/instmanagestudent">
+                        <i class="fa fa-users"></i> <span>Manage Applicant</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/instsettings.html">
+                        <i class="fa fa-cog"></i> <span>Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+
+
+        <section class="content-header">
+            <h1>
+                View Question
+                <small>Control panel</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> Home</a>
+                </li>
+                <li class="active">Question View</li>
+            </ol>
+        </section>
+
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Question View</h3>
+                        </div>
+                        <!-- /.box-header -->
+                        <form method="post">
+                            <div class="box-body">
+                                {% with messages = get_flashed_messages() %}
+                                {% if messages %}
+                                {% for message in messages %}
+                                <div class="alert alert-info alert-dismissible" role="alert"
+                                     style="margin-left: 10px;margin-right: 10px;margin-top: 5px;">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                            aria-hidden="true">×</span>
+                                    </button>
+                                    {{message}}
+                                </div>
+                                {% endfor %}
+                                {% endif %}
+                                {% endwith %}
+
+                                <div class="box-body">
+                                    {% block body %}
+
+                                    <div class="row">
+                                        <label class="col-sm-3 control-label">Select Question Paper code</label>
+                                        <select name="option" class="form-control" style="width: 400px;">
+                                            {%for row in data%}
+                                            <option value="{{ row[0] }}" SELECTED>{{ row[0] }}</option>
+                                            {% endfor%}
+                                        </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- /.box-body -->
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary pull-right"
+                                        formaction="/questionweightage">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                        {% endblock %}
+
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+            <!-- /.row -->
+        </section>
+
+
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 1.0
+        </div>
+        <strong>Copyright &copy; 2019
+            <a href="aboutus.html">WeEmploy.com</a>.</strong> All rights reserved.
+    </footer>
+
+
+</div>
+<!-- ./wrapper -->
+
+<script src="{{ url_for('static', filename='dist/adminlte.min.js') }}"></script>
+
+</body>
+
+</html>
