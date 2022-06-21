@@ -107,9 +107,21 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 
 #### Candidate View Process Flow
 * Registration
+
+\\insert image here
+
 * Login
+
+\\insert image here
+
 * Answers questions
+
+\\insert image here
+
 * Views report 
+
+\\insert image here
+
 
 #### Human Resource Team
 * Only the Human Resource Manager can add a personnel to the Staffing team.
@@ -228,13 +240,15 @@ For prediction of fourth category which is Judging (J)/ Perceiving (P), the SVM 
 From training of the dataset, we were able to come to a conclusion on the best model to use in each dimension. By using pickle, the models are imported and used. The snscrape which is a scraper for social networking service is imported to scrape a user's tweets from their twitter account after the user has entered their username in the application. The Human Resource team requires all users to have a twitter account. Users are required to be engaging in tweets and post three hours before they take the personality test. 
 The models are loaded, the users tweets are pre-processed and predictions are made thereafter.
 
-
+\\insert image here
 
 
 ## CV Analysis
 Though curriculum vitae analysis is necessary to ensure recruiters do not miss good candidates or put forward incorrect candidates; but it is also important to process all applications quickly to ensure a fast response for clients and move to the interview and placement stages. In our project, our goal was to parse the entire CV and search for keywords from the CV.
 
 For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
+
+\\Insert image here
 
 ### Features
 
