@@ -2,9 +2,9 @@
 
 The project aims to develop a prototype of a platform that eradicates the traditional way of employment which comes with the need to manually go through numerous applications and CVs to find out what suits the particular requirement of the job being offered. WeEmploy seeks a more efficient way to short-list submitted candidate CVs from a large number of applicant providing a consistent and fair CV ranking policy, which can be legally justifed. This system will help the HR department to easily short-list the candidate based on the CV ranking policy.
 
-[![star this repo](https://img.shields.io/github/stars/philkam/AI_Personality-Prediction-System-Through-CV-Analysis?style=plastic)
+[![star this repo]](https://img.shields.io/github/stars/philkam/AI_Personality-Prediction-System-Through-CV-Analysis?style=plastic)
 [![fork this repo]](https://img.shields.io/github/forks/philkam/AI_Personality-Prediction-System-Through-CV-Analysis?style=plastic)
-[![repo_size](https://img.shields.io/github/repo-size/philkam/AI_Personality-Prediction-System-Through-CV-Analysis?style=plastic)
+[![repo_size]](https://img.shields.io/github/repo-size/philkam/AI_Personality-Prediction-System-Through-CV-Analysis?style=plastic)
 [![top_language]](https://img.shields.io/github/languages/top/philkam/AI_Personality-Prediction-System-Through-CV-Analysis?style=plastic)
 
 ## Table of Contents
@@ -37,7 +37,7 @@ The video below shows a live demo of how the web application works.
 
 The video below shows a live demo of how the web application works.
 
-[weEmploy Demo Video](https://drive.google.com/drive/u/0/folders/161UDIjruZur61fq8F_vkUc6TFXbvjOHH)
+[WeEmploy Demo Video](https://drive.google.com/drive/u/0/folders/161UDIjruZur61fq8F_vkUc6TFXbvjOHH)
 
 
 
