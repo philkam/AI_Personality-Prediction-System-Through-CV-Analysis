@@ -37,7 +37,7 @@ The video below shows a live demo of how the web application works.
 
 The video below shows a live demo of how the web application works.
 
-[weEmploy Demo Video](https://drive.google.com/drive/u/0/folders/161UDIjruZur61fq8F_vkUc6TFXbvjOHH)
+[WeEmploy Demo Video](https://drive.google.com/drive/u/0/folders/161UDIjruZur61fq8F_vkUc6TFXbvjOHH)
 
 
 
