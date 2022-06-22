@@ -26,7 +26,7 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 ### Hosted app
 
 Our hosted app had some features removed due to limited storage by hosting provider. 
-We eliminate the personality feature due to the size of the models trained. 
+We eliminated the personality feature due to the size of the models trained. 
 However, all other features are fully functional.
 
 [WeEmploy.com](http://phoebemensah.pythonanywhere.com/)
