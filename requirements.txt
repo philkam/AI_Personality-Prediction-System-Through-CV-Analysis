@@ -37,7 +37,7 @@ passlib==1.7.4
 pathy==0.6.1
 pdfminer.six==20220524
 pdfminer3==2018.12.3.0
-Pillow==9.1.1
+Pillow==9.3.0
 pipreqs==0.4.11
 plac==1.1.3
 plotly==5.8.2
